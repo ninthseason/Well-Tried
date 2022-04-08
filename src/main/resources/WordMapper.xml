@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.ninthseason.welltried.dao.WordMapper">
+    <select id="getAllWords" resultType="pers.ninthseason.welltried.dao.Word">select * from `words`</select>
+    <insert id="insertWord">insert into `words` values (0,#{word},#{transition})</insert>
+</mapper>
