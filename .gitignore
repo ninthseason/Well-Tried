@@ -38,3 +38,4 @@ out/
 
 ### Config ###
 src/main/resources/mybatis-config.xml
+/src/main/resources/static/
